@@ -82,6 +82,21 @@
                 </configuration>
             </plugin>
 
+            <!-- Shade dependencies into an uber jar -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
             <!-- Optional, used to build directly executable packages (without using 'java -jar'),
             for example 'artifactId-1.0.0-osx-x86_64.exe', 'artifactId-1.0.0-osx-x86_64.exe' -->
             <plugin>
