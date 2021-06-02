@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+
+wget -O tmp https://maven.aliyun.com/repository/central/io/github/wybosys/dubbo-compiler/0.0.1/dubbo-compiler-0.0.1-javadoc.jar
+wget -O tmp https://maven.aliyun.com/repository/central/io/github/wybosys/dubbo-compiler/0.0.1/dubbo-compiler-0.0.1-linux-x86_64.exe
+wget -O tmp https://maven.aliyun.com/repository/central/io/github/wybosys/dubbo-compiler/0.0.1/dubbo-compiler-0.0.1-osx-x86_64.exe
+wget -O tmp https://maven.aliyun.com/repository/central/io/github/wybosys/dubbo-compiler/0.0.1/dubbo-compiler-0.0.1-sources.jar
+wget -O tmp https://maven.aliyun.com/repository/central/io/github/wybosys/dubbo-compiler/0.0.1/dubbo-compiler-0.0.1-windows-x86_64.exe
+wget -O tmp https://maven.aliyun.com/repository/central/io/github/wybosys/dubbo-compiler/0.0.1/dubbo-compiler-0.0.1.jar
+wget -O tmp https://maven.aliyun.com/repository/central/io/github/wybosys/dubbo-compiler/0.0.1/dubbo-compiler-0.0.1.pom
+
+rm -f tmp
